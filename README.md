@@ -1,3 +1,6 @@
+## Related Repositories
+- [Alice Copilot Buddy Frontend](https://github.com/mohammed-saad-git/alice-copilot-buddy)
+
 # Alice Chat Bot Backend
 
 This is the backend service for **Alice Copilot Buddy**. It serves REST / HTTP APIs that the frontend uses to send and receive chat messages, manage knowledge contexts, and integrate with models or external APIs.
