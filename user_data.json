@@ -1,0 +1,9 @@
+{
+  "default_user": {
+    "name": "Alice"
+  },
+  "local_user": {
+    "name": "Saad like to watch anime",
+    "likes": "purple"
+  }
+}
