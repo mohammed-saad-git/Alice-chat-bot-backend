@@ -53,84 +53,27 @@ except Exception as e:
 # Teachers Data
 # ---------------------------
 teachers_data = {
-    "headmistress": "Neethasha Hebbar K",
-    "vice principal": "Paranjyothi Swamy",
-    "physics": "Shwetha G.M",
-    "mathematics": "Nijisha.C",
-    "computer": "Bindiya Joseph",
-    "english": "Joy Evanglin",
-    "hindi": "Rudra Naik",
-    "chemistry": "Vinayashree Bhat",
-    "computer science mentor": " InduPriya K ",
-    "computer science": "Bindiya Joseph",  # explicit mapping for common phrasing
+    "headmistress": "name",
+    "vice principal": "name",
+    "physics": "name",
+    "mathematics": "name",
+    "computer": "nameh",
+    "english": "name",
+    "hindi": "name",
+    "chemistry": "name",
+    "computer science mentor": " name ",
+    "computer science": "name",  # explicit mapping for common phrasing
 }
 
 # ---------------------------
 # Class 2B structured data (all students)
 # ---------------------------
 class_data = {
-    "class": "2B",
-    "classTeacher": "Ms. Vinayashree Shridhar Bhat",
-    "students": [
-        {"full_name": "ABHISHEK AR", "roll_no": "2B01", "combination": "PCMC", "ii_language": "HINDI"},
-        {"full_name": "AKSHITHA", "roll_no": "2B02", "combination": "PCMC", "ii_language": "HINDI"},
-        {"full_name": "ANKIT SHARMA S", "roll_no": "2B03", "combination": "PCMC", "ii_language": "HINDI"},
-        {"full_name": "BALAMURUGAN SRI NAGA JOSHNA", "roll_no": "2B04", "combination": "PCMC", "ii_language": "KANNADA"},
-        {"full_name": "BANU VIJAYAKUMAR", "roll_no": "2B05", "combination": "PCMB", "ii_language": "HINDI"},
-        {"full_name": "BHAVYA L", "roll_no": "2B06", "combination": "PCMC", "ii_language": "KANNADA"},
-        {"full_name": "BHUVITHA P", "roll_no": "2B07", "combination": "PCMC", "ii_language": "KANNADA"},
-        {"full_name": "BOWMYA S", "roll_no": "2B08", "combination": "PCMB", "ii_language": "KANNADA"},
-        {"full_name": "CHETHAN M G", "roll_no": "2B09", "combination": "PCMB", "ii_language": "HINDI"},
-        {"full_name": "CHITHRA M", "roll_no": "2B10", "combination": "PCMC", "ii_language": "HINDI"},
-        {"full_name": "CHRISTIANC JOHN VARGHESE", "roll_no": "2B11", "combination": "PCMB", "ii_language": "HINDI"},
-        {"full_name": "DANIEL JOHN JOEMON", "roll_no": "2B12", "combination": "PCMB", "ii_language": "HINDI"},
-        {"full_name": "DEEPA SHREE V", "roll_no": "2B13", "combination": "PCMC", "ii_language": "KANNADA"},
-        {"full_name": "F VERONICA JEROMIE", "roll_no": "2B14", "combination": "PCMB", "ii_language": "KANNADA"},
-        {"full_name": "FAHAD AHMED", "roll_no": "2B15", "combination": "PCMC", "ii_language": "HINDI"},
-        {"full_name": "GAGAN DEEPAK", "roll_no": "2B16", "combination": "PCMB", "ii_language": "HINDI"},
-        {"full_name": "H M HARPSHITH ADITHIYA", "roll_no": "2B17", "combination": "PCMB", "ii_language": "HINDI"},
-        {"full_name": "HARSHITH N", "roll_no": "2B18", "combination": "PCMB", "ii_language": "KANNADA"},
-        {"full_name": "ISMAIL PASHA", "roll_no": "2B19", "combination": "PCMC", "ii_language": "HINDI"},
-        {"full_name": "JENITHA JONES ISSAC", "roll_no": "2B20", "combination": "PCMB", "ii_language": "HINDI"},
-        {"full_name": "JOHNELL TARUN", "roll_no": "2B21", "combination": "PCMB", "ii_language": "HINDI"},
-        {"full_name": "KEERTHANA M", "roll_no": "2B22", "combination": "PCMC", "ii_language": "KANNADA"},
-        {"full_name": "KIRAN A", "roll_no": "2B23", "combination": "PCMC", "ii_language": "KANNADA"},
-        {"full_name": "KRITI S", "roll_no": "2B24", "combination": "PCMC", "ii_language": "HINDI"},
-        {"full_name": "MARYSA THEIA JOSEPH", "roll_no": "2B25", "combination": "PCMC", "ii_language": "HINDI"},
-        {"full_name": "MEENAKSHI S", "roll_no": "2B26", "combination": "PCMC", "ii_language": "KANNADA"},
-        {"full_name": "MOHAMMAD ARSLAAN ILYAS", "roll_no": "2B27", "combination": "PCMC", "ii_language": "HINDI"},
-        {"full_name": "MOHAMMED AYAAN KHAKHU", "roll_no": "2B28", "combination": "PCMB", "ii_language": "HINDI"},
-        {"full_name": "MOHAMMED KHIZER", "roll_no": "2B29", "combination": "PCMC", "ii_language": "HINDI"},
-        {"full_name": "MOHAMMED SAAD", "roll_no": "2B30", "combination": "PCMC", "ii_language": "HINDI"},
-        {"full_name": "MOHAMMED SAHIL", "roll_no": "2B31", "combination": "PCMB", "ii_language": "HINDI"},
-        {"full_name": "MOHAMMED SHAHID", "roll_no": "2B32", "combination": "PCMC", "ii_language": "HINDI"},
-        {"full_name": "MOHAMMED TAABISH HUSSAIN", "roll_no": "2B33", "combination": "PCMB", "ii_language": "HINDI"},
-        {"full_name": "MOHAMMED YUSUF", "roll_no": "2B34", "combination": "PCMC", "ii_language": "HINDI"},
-        {"full_name": "MUNEER AHMED", "roll_no": "2B35", "combination": "PCMB", "ii_language": "HINDI"},
-        {"full_name": "NASTAYEEN AHMED", "roll_no": "2B36", "combination": "PCMB", "ii_language": "HINDI"},
-        {"full_name": "NAWALI MOHAMMED ZAHAAN", "roll_no": "2B37", "combination": "PCMC", "ii_language": "HINDI"},
-        {"full_name": "NAWAZ PASHA", "roll_no": "2B38", "combination": "PCMC", "ii_language": "HINDI"},
-        {"full_name": "PREETHI M", "roll_no": "2B39", "combination": "PCMC", "ii_language": "KANNADA"},
-        {"full_name": "RABYHA BASRI", "roll_no": "2B40", "combination": "PCMB", "ii_language": "HINDI"},
-        {"full_name": "RACHEL J", "roll_no": "2B41", "combination": "PCMC", "ii_language": "HINDI"},
-        {"full_name": "RIYAH S", "roll_no": "2B42", "combination": "PCMC", "ii_language": "HINDI"},
-        {"full_name": "S T DANISH", "roll_no": "2B43", "combination": "PCMC", "ii_language": "HINDI"},
-        {"full_name": "SHUSHRUTHA M", "roll_no": "2B44", "combination": "PCMC", "ii_language": "KANNADA"},
-        {"full_name": "SYED SAFWAN AHMED", "roll_no": "2B45", "combination": "PCMC", "ii_language": "HINDI"},
-        {"full_name": "T MAHIN ZONA KHAN", "roll_no": "2B46", "combination": "PCMB", "ii_language": "HINDI"},
-        {"full_name": "VEDANTH M", "roll_no": "2B47", "combination": "PCMC", "ii_language": "HINDI"},
-        {"full_name": "VIDHICHARAN G", "roll_no": "2B48", "combination": "PCMB", "ii_language": "KANNADA"},
-        {"full_name": "VISHAL KK", "roll_no": "2B49", "combination": "PCMC", "ii_language": "HINDI"},
-        {"full_name": "VISHAL N", "roll_no": "2B50", "combination": "PCMC", "ii_language": "HINDI"},
-        {"full_name": "VISHWAS M", "roll_no": "2B51", "combination": "PCMC", "ii_language": "KANNADA"},
-        {"full_name": "JUVEIRA", "roll_no": "2B52", "combination": "PCMB", "ii_language": "HINDI"},
-    ]
-}
-
+    Your class data}
 # ---------------------------
 # Prompt template
 # ---------------------------
-prompt_template = """You are Alice, a helpful assistant for CMR institutions.
+prompt_template = """You are Alice, a helpful assistant.
 Use the following context to answer the question. 
 If the answer isn't in the context, just say:
 "I don't have that specific information in my school database."
@@ -533,3 +476,4 @@ def ask_question(question: str, mode: str = "flash"):
         print(f"[ERROR] Gemini failed: {e}")
 
     return "Sorry, I couldn't find an answer for that.", False
+
